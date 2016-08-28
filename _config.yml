@@ -1,0 +1,30 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+gems:
+  - jekyll-seo-tag
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Asset Chemsit Your Local Pharmacy
+email: yomi@assetchemist.co.uk
+description: Asset Chemist stock a range of prescription products for people to obtain. These include medications that aren’t stocked in general health stores. If you already have a repeat prescription, then you’ll have no worry obtaining the medication from this site. Along with this, there’s also a variety of health and beauty products for purchase too. These products help with many different ailments that may be bothering you. From basic spot removal to hair loss, everything is covered in the Asset Chemist online pharmacy.
+
+The website is mobile-friendly and can be accessed from both Android and Apple devices. This means that you can get on the site even when you’re on the move. It’s an extremely secure website too, and all of your personal information is handled with care. Many people prefer to use the online pharmacy service as it offers a more discreet way to obtain medication or health & beauty products.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://assetchemist.co.uk" # the base hostname & protocol for your site
+twitter_username: assetchemist
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+theme: minima

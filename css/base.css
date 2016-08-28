@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif; }
+
+.flex {
+  display: flex; }
+
+.flex--center {
+  justify-content: center; }
+
+.align-center {
+  align-items: center; }
+
+.flex--space-around {
+  justify-content: space-around; }
+
+.flex--space-between {
+  justify-content: space-between; }
+
+.flex--end {
+  justify-content: flex-end; }
+
+.flex--start {
+  justify-content: flex-start; }
+
+.align-end {
+  align-items: flex-end; }
+
+.align-start {
+  align-items: flex-start; }
+
+.rows {
+  flex-direction: row; }
+
+.columns {
+  flex-direction: column; }
+
+.posr {
+  position: relative; }
+
+.posa {
+  position: absolute; }
+
+.f-left {
+  float: left; }
+
+.f-right {
+  float: right; }
+
+.txt-center {
+  text-align: center; }
+
+.txt-right {
+  text-align: right; }
+
+.txt-left {
+  text-align: left; }
+
+.first {
+  flex: 1; }
+
+header {
+  width: 100%;
+  height: 200px; }
+  header .logo h1 {
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-transform: uppercase; }
+  header .logo h3 {
+    text-transform: uppercase;
+    font-weight: 300; }
+  header .logo h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px; }
+  header .logo h5 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    margin-left: -32px;
+    margin-top: 0; }
+
+section.strip {
+  margin-top: 50px;
+    margin-top-transform: translateX(-100px); }
+  section.strip .card-strip {
+    width: 100%;
+    overflow: scroll; }
+    section.strip .card-strip a {
+      color: white;
+      transition: 0.76s ease-in-out all;
+      opacity: 0; }
+    section.strip .card-strip .fade-in {
+      opacity: 1;
+      width: 300px;
+      min-height: 400px;
+      border-radius: 4px;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      font-size: 10px;
+      padding: 20px;
+      margin-right: 10px; }
+      section.strip .card-strip .fade-in:hover {
+        transform: translateY(-23px);
+        box-shadow: 10px 1px 1px 1px #eee; }
+      section.strip .card-strip .fade-in h2 {
+        font-weight: 300; }
+      section.strip .card-strip .fade-in:first-child {
+        background: url("/img/img-man-1-min.jpg");
+          background-size: cover;
+          background-position: center left;
+          background-repeat: no-repeat; }
+      section.strip .card-strip .fade-in:nth-child(2) {
+        background-image: url("/img/img-woman-1-min.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+      section.strip .card-strip .fade-in:nth-child(3) {
+        background-image: url("/img/img-couple-1-min.jpeg");
+        background-position: center left;
+        background-repeat: no-repeat;
+        background-size: cover; }
+      section.strip .card-strip .fade-in:nth-child(4) {
+        background-image: url("/img/img-meeting-1-min.jpg");
+        background-position: center left;
+        background-repeat: no-repeat;
+        background-size: cover; }
+      section.strip .card-strip .fade-in:nth-child(5) {
+        background-image: url("http://bossfight.co/wp-content/uploads/2015/06/boss-fight-free-stock-images-photography-photos-high-resolution-pelican-sun-ocean.jpg");
+        background-position: center left;
+        background-repeat: no-repeat;
+        background-size: cover; }
+
+section.desc {
+  width: 100%; }
+  section.desc h1.title {
+    font-weight: 400;
+    text-align: left;
+    font-family: "raleway", sans-serif;
+    padding-top: 100px;
+    letter-spacing: 5px; }
+  section.desc p {
+    color: #a2a2a5;
+    line-height: 2em;
+    font-weight: 300;
+    font-size: 23px;
+    padding-bottom: 40px; }
+
+section.img {
+  background-image: url("/img/img-mens-packing-min.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 400px;
+  width: 100%;
+  margin-bottom: 60px; }
+
+section.containing .blog-unit {
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  margin-left: -10pc;
+  background: url("/img/img-mens-running-min.jpg");
+    background-size: cover;
+    background-position: center right;
+  transition: 0.54s ease-in-out all; }
+  section.containing .blog-unit:hover {
+    border-radius: 50%; }
+    section.containing .blog-unit:hover h3 {
+      opacity: 1; }
+  section.containing .blog-unit h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white;
+    opacity: 0; }
+section.containing h3 {
+  font-weight: 300;
+  letter-spacing: 5px;
+  transition: 0.65s ease-in-out all; }
+section.containing .fitness-writing p {
+  line-height: 2.6em;
+  color: #a2a2a5;
+  font-weight: 300;
+  width: 600px;
+  margin: 0 0 0 50px; }
+  section.containing .fitness-writing p:hover .blog-unit {
+    border-radius: 50%; }
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%; }
+
+.fall-in {
+  transition: 0.86s ease-in-out all;
+  opacity: 0;
+  transform: translateY(200px); }

@@ -1,0 +1,1 @@
+$(document).ready(function(){$("section.strip a").each(function(n){setTimeout(function(){$("section.strip a").eq(n).addClass("fade-in")},200*n)}),$(".fall-in").each(function(n){setTimeout(function(){$(".fall-in").eq(n).css({opacity:1,transform:"translateY(0px)"})},200*n)})});
