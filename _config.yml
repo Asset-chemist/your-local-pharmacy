@@ -16,9 +16,7 @@ gems:
 # in the templates via {{ site.myvariable }}.
 title: Asset Chemsit Your Local Pharmacy
 email: yomi@assetchemist.co.uk
-description: Asset Chemist stock a range of prescription products for people to obtain. These include medications that aren’t stocked in general health stores. If you already have a repeat prescription, then you’ll have no worry obtaining the medication from this site. Along with this, there’s also a variety of health and beauty products for purchase too. These products help with many different ailments that may be bothering you. From basic spot removal to hair loss, everything is covered in the Asset Chemist online pharmacy.
-
-The website is mobile-friendly and can be accessed from both Android and Apple devices. This means that you can get on the site even when you’re on the move. It’s an extremely secure website too, and all of your personal information is handled with care. Many people prefer to use the online pharmacy service as it offers a more discreet way to obtain medication or health & beauty products.
+description: Asset Chemist stock a range of prescription products for people to obtain. These include medications that aren’t stocked in general health stores. If you already have a repeat prescription, then you’ll have no worry obtaining the medication from this site. Along with this, there’s also a variety of health and beauty products for purchase too. These products help with many different ailments that may be bothering you. From basic spot removal to hair loss, everything is covered in the Asset Chemist online pharmacy. The website is mobile-friendly and can be accessed from both Android and Apple devices. This means that you can get on the site even when you’re on the move. It’s an extremely secure website too, and all of your personal information is handled with care. Many people prefer to use the online pharmacy service as it offers a more discreet way to obtain medication or health & beauty products.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://assetchemist.co.uk" # the base hostname & protocol for your site
